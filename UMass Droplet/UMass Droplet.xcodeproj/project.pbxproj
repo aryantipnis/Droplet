@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AFF716729B7DEED003E7C5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF716629B7DEED003E7C5C /* AppDelegate.swift */; };
+		8AFF716929B7DEED003E7C5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF716829B7DEED003E7C5C /* SceneDelegate.swift */; };
+		8AFF716B29B7DEED003E7C5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF716A29B7DEED003E7C5C /* ViewController.swift */; };
+		8AFF716E29B7DEED003E7C5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFF716C29B7DEED003E7C5C /* Main.storyboard */; };
+		8AFF717029B7DEEF003E7C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFF716F29B7DEEF003E7C5C /* Assets.xcassets */; };
+		8AFF717329B7DEEF003E7C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFF717129B7DEEF003E7C5C /* LaunchScreen.storyboard */; };
+		8AFF717E29B7DEEF003E7C5C /* UMass_DropletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF717D29B7DEEF003E7C5C /* UMass_DropletTests.swift */; };
+		8AFF718829B7DEEF003E7C5C /* UMass_DropletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF718729B7DEEF003E7C5C /* UMass_DropletUITests.swift */; };
+		8AFF718A29B7DEEF003E7C5C /* UMass_DropletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF718929B7DEEF003E7C5C /* UMass_DropletUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AFF717A29B7DEEF003E7C5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AFF715B29B7DEED003E7C5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AFF716229B7DEED003E7C5C;
+			remoteInfo = "UMass Droplet";
+		};
+		8AFF718429B7DEEF003E7C5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AFF715B29B7DEED003E7C5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AFF716229B7DEED003E7C5C;
+			remoteInfo = "UMass Droplet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AFF716329B7DEED003E7C5C /* UMass Droplet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UMass Droplet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFF716629B7DEED003E7C5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AFF716829B7DEED003E7C5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8AFF716A29B7DEED003E7C5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AFF716D29B7DEED003E7C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AFF716F29B7DEEF003E7C5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AFF717229B7DEEF003E7C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AFF717429B7DEEF003E7C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AFF717929B7DEEF003E7C5C /* UMass DropletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UMass DropletTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFF717D29B7DEEF003E7C5C /* UMass_DropletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMass_DropletTests.swift; sourceTree = "<group>"; };
+		8AFF718329B7DEEF003E7C5C /* UMass DropletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UMass DropletUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFF718729B7DEEF003E7C5C /* UMass_DropletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMass_DropletUITests.swift; sourceTree = "<group>"; };
+		8AFF718929B7DEEF003E7C5C /* UMass_DropletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMass_DropletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AFF716029B7DEED003E7C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFF717629B7DEEF003E7C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFF718029B7DEEF003E7C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AFF715A29B7DEED003E7C5C = {
+			isa = PBXGroup;
+			children = (
+				8AFF716529B7DEED003E7C5C /* UMass Droplet */,
+				8AFF717C29B7DEEF003E7C5C /* UMass DropletTests */,
+				8AFF718629B7DEEF003E7C5C /* UMass DropletUITests */,
+				8AFF716429B7DEED003E7C5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AFF716429B7DEED003E7C5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF716329B7DEED003E7C5C /* UMass Droplet.app */,
+				8AFF717929B7DEEF003E7C5C /* UMass DropletTests.xctest */,
+				8AFF718329B7DEEF003E7C5C /* UMass DropletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AFF716529B7DEED003E7C5C /* UMass Droplet */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF716629B7DEED003E7C5C /* AppDelegate.swift */,
+				8AFF716829B7DEED003E7C5C /* SceneDelegate.swift */,
+				8AFF716A29B7DEED003E7C5C /* ViewController.swift */,
+				8AFF716C29B7DEED003E7C5C /* Main.storyboard */,
+				8AFF716F29B7DEEF003E7C5C /* Assets.xcassets */,
+				8AFF717129B7DEEF003E7C5C /* LaunchScreen.storyboard */,
+				8AFF717429B7DEEF003E7C5C /* Info.plist */,
+			);
+			path = "UMass Droplet";
+			sourceTree = "<group>";
+		};
+		8AFF717C29B7DEEF003E7C5C /* UMass DropletTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF717D29B7DEEF003E7C5C /* UMass_DropletTests.swift */,
+			);
+			path = "UMass DropletTests";
+			sourceTree = "<group>";
+		};
+		8AFF718629B7DEEF003E7C5C /* UMass DropletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF718729B7DEEF003E7C5C /* UMass_DropletUITests.swift */,
+				8AFF718929B7DEEF003E7C5C /* UMass_DropletUITestsLaunchTests.swift */,
+			);
+			path = "UMass DropletUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AFF716229B7DEED003E7C5C /* UMass Droplet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFF718D29B7DEEF003E7C5C /* Build configuration list for PBXNativeTarget "UMass Droplet" */;
+			buildPhases = (
+				8AFF715F29B7DEED003E7C5C /* Sources */,
+				8AFF716029B7DEED003E7C5C /* Frameworks */,
+				8AFF716129B7DEED003E7C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UMass Droplet";
+			productName = "UMass Droplet";
+			productReference = 8AFF716329B7DEED003E7C5C /* UMass Droplet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AFF717829B7DEEF003E7C5C /* UMass DropletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFF719029B7DEEF003E7C5C /* Build configuration list for PBXNativeTarget "UMass DropletTests" */;
+			buildPhases = (
+				8AFF717529B7DEEF003E7C5C /* Sources */,
+				8AFF717629B7DEEF003E7C5C /* Frameworks */,
+				8AFF717729B7DEEF003E7C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AFF717B29B7DEEF003E7C5C /* PBXTargetDependency */,
+			);
+			name = "UMass DropletTests";
+			productName = "UMass DropletTests";
+			productReference = 8AFF717929B7DEEF003E7C5C /* UMass DropletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AFF718229B7DEEF003E7C5C /* UMass DropletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFF719329B7DEEF003E7C5C /* Build configuration list for PBXNativeTarget "UMass DropletUITests" */;
+			buildPhases = (
+				8AFF717F29B7DEEF003E7C5C /* Sources */,
+				8AFF718029B7DEEF003E7C5C /* Frameworks */,
+				8AFF718129B7DEEF003E7C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AFF718529B7DEEF003E7C5C /* PBXTargetDependency */,
+			);
+			name = "UMass DropletUITests";
+			productName = "UMass DropletUITests";
+			productReference = 8AFF718329B7DEEF003E7C5C /* UMass DropletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AFF715B29B7DEED003E7C5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8AFF716229B7DEED003E7C5C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8AFF717829B7DEEF003E7C5C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8AFF716229B7DEED003E7C5C;
+					};
+					8AFF718229B7DEEF003E7C5C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8AFF716229B7DEED003E7C5C;
+					};
+				};
+			};
+			buildConfigurationList = 8AFF715E29B7DEED003E7C5C /* Build configuration list for PBXProject "UMass Droplet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AFF715A29B7DEED003E7C5C;
+			productRefGroup = 8AFF716429B7DEED003E7C5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AFF716229B7DEED003E7C5C /* UMass Droplet */,
+				8AFF717829B7DEEF003E7C5C /* UMass DropletTests */,
+				8AFF718229B7DEEF003E7C5C /* UMass DropletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AFF716129B7DEED003E7C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFF717329B7DEEF003E7C5C /* LaunchScreen.storyboard in Resources */,
+				8AFF717029B7DEEF003E7C5C /* Assets.xcassets in Resources */,
+				8AFF716E29B7DEED003E7C5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFF717729B7DEEF003E7C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFF718129B7DEEF003E7C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AFF715F29B7DEED003E7C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFF716B29B7DEED003E7C5C /* ViewController.swift in Sources */,
+				8AFF716729B7DEED003E7C5C /* AppDelegate.swift in Sources */,
+				8AFF716929B7DEED003E7C5C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFF717529B7DEEF003E7C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFF717E29B7DEEF003E7C5C /* UMass_DropletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFF717F29B7DEEF003E7C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFF718829B7DEEF003E7C5C /* UMass_DropletUITests.swift in Sources */,
+				8AFF718A29B7DEEF003E7C5C /* UMass_DropletUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AFF717B29B7DEEF003E7C5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AFF716229B7DEED003E7C5C /* UMass Droplet */;
+			targetProxy = 8AFF717A29B7DEEF003E7C5C /* PBXContainerItemProxy */;
+		};
+		8AFF718529B7DEEF003E7C5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AFF716229B7DEED003E7C5C /* UMass Droplet */;
+			targetProxy = 8AFF718429B7DEEF003E7C5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AFF716C29B7DEED003E7C5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AFF716D29B7DEED003E7C5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AFF717129B7DEEF003E7C5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AFF717229B7DEEF003E7C5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AFF718B29B7DEEF003E7C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AFF718C29B7DEEF003E7C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AFF718E29B7DEEF003E7C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UMass Droplet/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Tipnis.UMass-Droplet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AFF718F29B7DEEF003E7C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UMass Droplet/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Tipnis.UMass-Droplet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8AFF719129B7DEEF003E7C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Tipnis.UMass-DropletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UMass Droplet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UMass Droplet";
+			};
+			name = Debug;
+		};
+		8AFF719229B7DEEF003E7C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Tipnis.UMass-DropletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UMass Droplet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UMass Droplet";
+			};
+			name = Release;
+		};
+		8AFF719429B7DEEF003E7C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Tipnis.UMass-DropletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UMass Droplet";
+			};
+			name = Debug;
+		};
+		8AFF719529B7DEEF003E7C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Tipnis.UMass-DropletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UMass Droplet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AFF715E29B7DEED003E7C5C /* Build configuration list for PBXProject "UMass Droplet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFF718B29B7DEEF003E7C5C /* Debug */,
+				8AFF718C29B7DEEF003E7C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AFF718D29B7DEEF003E7C5C /* Build configuration list for PBXNativeTarget "UMass Droplet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFF718E29B7DEEF003E7C5C /* Debug */,
+				8AFF718F29B7DEEF003E7C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AFF719029B7DEEF003E7C5C /* Build configuration list for PBXNativeTarget "UMass DropletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFF719129B7DEEF003E7C5C /* Debug */,
+				8AFF719229B7DEEF003E7C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AFF719329B7DEEF003E7C5C /* Build configuration list for PBXNativeTarget "UMass DropletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFF719429B7DEEF003E7C5C /* Debug */,
+				8AFF719529B7DEEF003E7C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AFF715B29B7DEED003E7C5C /* Project object */;
+}

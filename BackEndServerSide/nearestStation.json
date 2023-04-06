@@ -1,0 +1,103 @@
+[
+    {
+        "buildingName": "Bartlett",
+        "lat": 42.3879676,
+        "lon": -72.5286741,
+        "stationList": [
+            {
+                "stationID": 5,
+                "floor": 1,
+                "status": "good",
+                "notes": ""
+            }
+        ]
+    },
+    {
+        "buildingName": "Curry Hicks Cage",
+        "lat": 42.3869766,
+        "lon": -72.528243,
+        "stationList": [
+            {
+                "stationID": 26,
+                "floor": 1,
+                "status": "good",
+                "notes": "On Track"
+            },
+            {
+                "stationID": 27,
+                "floor": 1,
+                "status": "good",
+                "notes": "On Track"
+            }
+        ]
+    },
+    {
+        "buildingName": "Memorial Hall",
+        "lat": 42.3883837,
+        "lon": -72.5275768,
+        "stationList": [
+            {
+                "stationID": 100,
+                "floor": -1,
+                "status": "good",
+                "notes": ""
+            }
+        ]
+    },
+    {
+        "buildingName": "Herter",
+        "lat": 42.3877501,
+        "lon": -72.5273012,
+        "stationList": [
+            {
+                "stationID": 57,
+                "floor": 1,
+                "status": "good",
+                "notes": ""
+            },
+            {
+                "stationID": 58,
+                "floor": 1,
+                "status": "good",
+                "notes": "Outside of Room 19"
+            },
+            {
+                "stationID": 59,
+                "floor": 2,
+                "status": "good",
+                "notes": ""
+            },
+            {
+                "stationID": 60,
+                "floor": 3,
+                "status": "good",
+                "notes": "By 330"
+            },
+            {
+                "stationID": 61,
+                "floor": 6,
+                "status": "good",
+                "notes": "By 610"
+            }
+        ]
+    },
+    {
+        "buildingName": "Old Chapel",
+        "lat": 42.38908736722469,
+        "lon": -72.52792449032935,
+        "stationList": [
+            {
+                "stationID": 14,
+                "floor": 1,
+                "status": "good",
+                "notes": ""
+            },
+            {
+                "stationID": 15,
+                "floor": 0,
+                "status": "good",
+                "notes": "Basement"
+            }
+        ]
+    }
+]

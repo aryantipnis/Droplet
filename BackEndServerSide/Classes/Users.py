@@ -4,4 +4,4 @@ class Users:
     def __init__(self, uid, username, waterConsumed):
         self.uid = uid
         self.username = username
-        self.waterConsumed = waterConsumed
+        self.waterConsumed = int(waterConsumed)

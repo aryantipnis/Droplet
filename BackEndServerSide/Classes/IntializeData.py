@@ -63,3 +63,27 @@ def IntializeStations(buildingList, file):
             appendWaterStation(buildingList, newStation)
     
     return buildingList
+
+"""
+Function:
+    Will take the list of users and initialize it into the class Users:
+
+Params:
+    file: CSV file location containing all of our users
+
+Returns:
+    Dictonary containing all of the users
+    Key will be the uid and the value will the user class
+"""
+def InitializeUsers(file):
+    userMap = {}
+    with open(file, newline='') as csvfile:
+        reader = csv.reader(csvfile)
+        for row in reader:
+            uid = row[0]
+            username = row[1]
+            waterConsumed = row[2]
+            newUser = Users(uid, username, waterConsumed)
+            userMap[uid] = newUser
+    
+    return userMap

@@ -1,6 +1,7 @@
 from Coordinates import *
 
 class Users:
-    def __init__(self, lat, lon, waterConsumed):
-        self.cords = Coordinates(lat, lon)
+    def __init__(self, uid, username, waterConsumed):
+        self.uid = uid
+        self.username = username
         self.waterConsumed = waterConsumed

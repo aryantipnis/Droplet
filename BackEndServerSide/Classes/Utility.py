@@ -88,6 +88,30 @@ def json5buildings(list):
         json.dump(allBuildings, outfile, indent=4)
 
 
+"""
+Function:
+    Will take a specific UID and create a JSON Dump on that user's water cosumption:
+"""
+def jsonWaterConsumption(userMap, uid):
+
+    userObject = userMap[uid]
+
+    userDict = {}
+    userDict["uid"] = userObject.uid
+    userDict["username"] = userObject.username
+    userDict["waterConsumed"] = userObject.waterConsumed
+
+
+    #Ouput the JSON information
+    with open("userData.json", "w") as outfile:
+        json.dump(userDict, outfile, indent=4)
+
+    
+    
+
+
+
+
 
 def main():
 
@@ -97,9 +121,14 @@ def main():
     #Appends the Water Stations Into the Building Data Structure: 
     IntializeStations(buildingList, "Data/station.csv")
 
+    #Make a dictonary containing users
+    userMap = InitializeUsers("Data/userid.csv")
+
     cords = Coordinates(42.38796604784769, -72.529016336402)
     closestBuilding = nearestBuilding(buildingList, cords)
     json5buildings(closestBuilding)
+    
+    jsonWaterConsumption(userMap, "IoGdPGhkWvQfqR803ICAo9lR4UF2")
 
 if __name__ == "__main__":
     main()

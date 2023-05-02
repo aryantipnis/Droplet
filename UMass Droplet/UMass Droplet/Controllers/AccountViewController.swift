@@ -7,10 +7,16 @@
 
 import UIKit
 
+
 class AccountViewController: UIViewController {
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var name: UILabel!
+    var test = LoginViewController().usernameLabel;
+    var test2 = SignUpViewController().username;
+    //var username = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    
 }

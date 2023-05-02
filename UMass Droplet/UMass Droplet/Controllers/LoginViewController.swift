@@ -10,9 +10,10 @@ import AVKit
 import AVFoundation
 import FirebaseAuth
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
     
     @IBOutlet weak var username: UITextField!
+    var usernameLabel = String()
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var signInButton: UIButton!
     @IBOutlet weak var errorMsg: UILabel!
@@ -33,6 +34,7 @@ class ViewController: UIViewController {
         }
         
         return nil
+        //return username.text
     }
     
     var showPassClick = true
@@ -60,31 +62,38 @@ class ViewController: UIViewController {
     @IBAction func SignInTapped(_ sender: Any) {
         
         //Validate Text fields
-        if username.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" || password.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" {
-            self.showError(message: "Please fill in all fields")
-        }
+//        if username.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" || password.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" {
+//            self.showError(message: "Please fill in all fields")
+//        }
+//
+        let error = validateFields()
         
-        let email = username.text!.trimmingCharacters(in: .whitespacesAndNewlines)
-        let pass = password.text!.trimmingCharacters(in: .whitespacesAndNewlines)
-        
-        Auth.auth().signIn(withEmail: email, password: pass){
-            (result, err) in
+        if(error != nil){
+            showError(message: error!)
+        } else {
+            let email = username.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let pass = password.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             
-            if err != nil {
-                //There was an error
-                self.showError(message: "Incorrect username/password")
-            }
-            else{
-                let story = UIStoryboard(name: "Main", bundle: nil)
-                let controller = story.instantiateViewController(withIdentifier: "UITabBarController") as! UITabBarController
-                controller.modalPresentationStyle = .fullScreen
-                self.present(controller, animated: true)
+            Auth.auth().signIn(withEmail: email, password: pass){ [self]
+                (result, err) in
+                
+                
+                if err != nil {
+                    //There was an error
+                    self.showError(message: "Incorrect username/password")
+                }
+                else{
+                    usernameLabel = self.username.text ?? ""
+                    //print(usernameLabel)
+                    let story = UIStoryboard(name: "Main", bundle: nil)
+                    let controller = story.instantiateViewController(withIdentifier: "UITabBarController") as! UITabBarController
+                    controller.modalPresentationStyle = .fullScreen
+                    self.present(controller, animated: true)
+                }
             }
         }
+        
     }
-    
-    
-    
 }
 
     

@@ -22,6 +22,11 @@ class SignUpViewController: UIViewController {
         setUpElements()
     }
     
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        var secondController = segue.destination as! AccountViewController
+//        secondController.name = username.text
+//    }
+    
     func setUpElements() {
         errorMsg.alpha = 0
     }
@@ -35,6 +40,8 @@ class SignUpViewController: UIViewController {
         //Check all fields are filled in
         if username.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" || password.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" {
             return "Please fill in all fields"
+            
+            //performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
         }
         
         //Check if pass is secure

@@ -1,0 +1,6 @@
+framework module Pods_UMass_Droplet_UMass_DropletUITests {
+  umbrella header "Pods-UMass Droplet-UMass DropletUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

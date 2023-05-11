@@ -17,12 +17,17 @@ public class JSONdecoder {
     }
     
     func fetchData(){
+        
         let fileName = Bundle.main.path(forResource: "test", ofType: "json")
+
         let filePath = URL(fileURLWithPath: fileName!)
+
         var data: Data?
+
         do {
             data = try Data(contentsOf: filePath, options: Data.ReadingOptions(rawValue: 0))
         }
+
         catch let error {
             data = nil
             print("Report error \(error.localizedDescription)")
@@ -41,3 +46,5 @@ public class JSONdecoder {
     }
     
 }
+
+

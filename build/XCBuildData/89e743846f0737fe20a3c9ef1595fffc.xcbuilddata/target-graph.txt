@@ -1,0 +1,11 @@
+Target dependency graph (5 targets)
+Charts in Pods, no dependencies
+SwiftyJSON in Pods, no dependencies
+Pods-UMass Droplet in Pods, depends on:
+Charts in Pods (explicit)
+SwiftyJSON in Pods (explicit)
+Pods-UMass Droplet-UMass DropletUITests in Pods, depends on:
+Charts in Pods (explicit)
+SwiftyJSON in Pods (explicit)
+Pods-UMass DropletTests in Pods, depends on:
+Pods-UMass Droplet in Pods (explicit)

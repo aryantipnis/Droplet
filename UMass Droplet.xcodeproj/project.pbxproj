@@ -1,0 +1,900 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A779A99B2FD4D6472573F83 /* Pods_UMass_Droplet_UMass_DropletUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 486C742D8E5BB714979D83C8 /* Pods_UMass_Droplet_UMass_DropletUITests.framework */; };
+		42C33902CA66230D1C1B57AB /* Pods_UMass_Droplet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1CD80BAEC3E3B2CA783C73 /* Pods_UMass_Droplet.framework */; };
+		84691BB6F888A906017B65E4 /* Pods_UMass_DropletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B39F4EC0B60C9C853AE27D /* Pods_UMass_DropletTests.framework */; };
+		8A0A473929CCE9C600A49730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A473829CCE9C600A49730 /* AppDelegate.swift */; };
+		8A0A473B29CCE9C600A49730 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A473A29CCE9C600A49730 /* SceneDelegate.swift */; };
+		8A0A473D29CCE9C600A49730 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A473C29CCE9C600A49730 /* LoginViewController.swift */; };
+		8A0A474229CCE9C800A49730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A474129CCE9C800A49730 /* Assets.xcassets */; };
+		8A0A474529CCE9C800A49730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A474329CCE9C800A49730 /* LaunchScreen.storyboard */; };
+		8A0A475029CCE9C800A49730 /* UMass_DropletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A474F29CCE9C800A49730 /* UMass_DropletTests.swift */; };
+		8A0A475A29CCE9C800A49730 /* UMass_DropletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A475929CCE9C800A49730 /* UMass_DropletUITests.swift */; };
+		8A0A475C29CCE9C800A49730 /* UMass_DropletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A475B29CCE9C800A49730 /* UMass_DropletUITestsLaunchTests.swift */; };
+		8A0A476B29CFA08A00A49730 /* UMass Droplet.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A476A29CFA08A00A49730 /* UMass Droplet.mp4 */; };
+		8A0A476C29CFA08A00A49730 /* UMass Droplet.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A476A29CFA08A00A49730 /* UMass Droplet.mp4 */; };
+		8A0A476D29CFA08A00A49730 /* UMass Droplet.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A476A29CFA08A00A49730 /* UMass Droplet.mp4 */; };
+		8A0A477829D0E06800A49730 /* Launch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A477729D0E06800A49730 /* Launch.mp4 */; };
+		8A0A477929D0E06800A49730 /* Launch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A477729D0E06800A49730 /* Launch.mp4 */; };
+		8A0A477A29D0E06800A49730 /* Launch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8A0A477729D0E06800A49730 /* Launch.mp4 */; };
+		8A2687F82A00B58900BEC300 /* AllBuildings.json in Sources */ = {isa = PBXBuildFile; fileRef = 8A2687F72A00B58900BEC300 /* AllBuildings.json */; };
+		8A2D595B29F5C69600CE10D5 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D595A29F5C69600CE10D5 /* Venue.swift */; };
+		8A2D595D29F8A61100CE10D5 /* JSONdecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D595C29F8A61100CE10D5 /* JSONdecoder.swift */; };
+		8A3ABF5029E0D07C001CDC15 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8A3ABF4F29E0D07C001CDC15 /* FirebaseAuth */; };
+		8A3ABF5229E0D61E001CDC15 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8A3ABF5129E0D61E001CDC15 /* FirebaseFirestore */; };
+		8A3ABF5429E0DE9D001CDC15 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3ABF5329E0DE9D001CDC15 /* HomeViewController.swift */; };
+		8A4406AA29E5A63000174BA9 /* BuildingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4406A929E5A63000174BA9 /* BuildingViewController.swift */; };
+		8A5A168D29E1E79B0095EB57 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A5A168C29E1E79A0095EB57 /* test.json */; };
+		8AAD949D2A140FB40065C93D /* WaterStationsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD949C2A140FB40065C93D /* WaterStationsUIView.swift */; };
+		8ABBF58729F9A61A000DACD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ABBF58529F9A61A000DACD3 /* Main.storyboard */; };
+		8ABBF58929FDBA25000DACD3 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBF58829FDBA25000DACD3 /* TrackViewController.swift */; };
+		8AFC3E0329D3E909006E4B48 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC3E0229D3E909006E4B48 /* AccountViewController.swift */; };
+		8AFC3E0529D62771006E4B48 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC3E0429D62771006E4B48 /* SignUpViewController.swift */; };
+		8AFC3E0A29D77A75006E4B48 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AFC3E0929D77A75006E4B48 /* GoogleService-Info.plist */; };
+		8AFC3E0D29D77C63006E4B48 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8AFC3E0C29D77C63006E4B48 /* FirebaseAnalytics */; };
+		8AFC3E0F29D77C63006E4B48 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 8AFC3E0E29D77C63006E4B48 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		D669393B2A0F00A90042784B /* WaterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669393A2A0F00A90042784B /* WaterManager.swift */; };
+		D669393E2A0F0A070042784B /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D669393D2A0F0A070042784B /* AccountManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A0A474C29CCE9C800A49730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A0A472D29CCE9C600A49730 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A0A473429CCE9C600A49730;
+			remoteInfo = "UMass Droplet";
+		};
+		8A0A475629CCE9C800A49730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A0A472D29CCE9C600A49730 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A0A473429CCE9C600A49730;
+			remoteInfo = "UMass Droplet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D1CD80BAEC3E3B2CA783C73 /* Pods_UMass_Droplet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMass_Droplet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1582EA1E953CFD42E0A42527 /* Pods-UMass Droplet-UMass DropletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMass Droplet-UMass DropletUITests.debug.xcconfig"; path = "Target Support Files/Pods-UMass Droplet-UMass DropletUITests/Pods-UMass Droplet-UMass DropletUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		17CB4259F33EAAC3B5ABD2CF /* Pods-UMass Droplet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMass Droplet.release.xcconfig"; path = "Target Support Files/Pods-UMass Droplet/Pods-UMass Droplet.release.xcconfig"; sourceTree = "<group>"; };
+		486C742D8E5BB714979D83C8 /* Pods_UMass_Droplet_UMass_DropletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMass_Droplet_UMass_DropletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0A473529CCE9C600A49730 /* UMass Droplet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UMass Droplet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0A473829CCE9C600A49730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A0A473A29CCE9C600A49730 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A0A473C29CCE9C600A49730 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8A0A474129CCE9C800A49730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A0A474429CCE9C800A49730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A0A474629CCE9C800A49730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A0A474B29CCE9C800A49730 /* UMass DropletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UMass DropletTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0A474F29CCE9C800A49730 /* UMass_DropletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMass_DropletTests.swift; sourceTree = "<group>"; };
+		8A0A475529CCE9C800A49730 /* UMass DropletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UMass DropletUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0A475929CCE9C800A49730 /* UMass_DropletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMass_DropletUITests.swift; sourceTree = "<group>"; };
+		8A0A475B29CCE9C800A49730 /* UMass_DropletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMass_DropletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8A0A476A29CFA08A00A49730 /* UMass Droplet.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UMass Droplet.mp4"; sourceTree = "<group>"; };
+		8A0A477729D0E06800A49730 /* Launch.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Launch.mp4; sourceTree = "<group>"; };
+		8A2687F72A00B58900BEC300 /* AllBuildings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AllBuildings.json; sourceTree = "<group>"; };
+		8A2D595A29F5C69600CE10D5 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		8A2D595C29F8A61100CE10D5 /* JSONdecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONdecoder.swift; sourceTree = "<group>"; };
+		8A3ABF5329E0DE9D001CDC15 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		8A4406A929E5A63000174BA9 /* BuildingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingViewController.swift; sourceTree = "<group>"; };
+		8A5A168C29E1E79A0095EB57 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		8AAD949C2A140FB40065C93D /* WaterStationsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterStationsUIView.swift; sourceTree = "<group>"; };
+		8ABBF58629F9A61A000DACD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8ABBF58829FDBA25000DACD3 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		8AFC3E0229D3E909006E4B48 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		8AFC3E0429D62771006E4B48 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8AFC3E0929D77A75006E4B48 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A6B39F4EC0B60C9C853AE27D /* Pods_UMass_DropletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMass_DropletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20081EA0D550651FE86201E /* Pods-UMass Droplet-UMass DropletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMass Droplet-UMass DropletUITests.release.xcconfig"; path = "Target Support Files/Pods-UMass Droplet-UMass DropletUITests/Pods-UMass Droplet-UMass DropletUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D669393A2A0F00A90042784B /* WaterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterManager.swift; sourceTree = "<group>"; };
+		D669393D2A0F0A070042784B /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		DFE05D5B580C5CEA2FEABF62 /* Pods-UMass Droplet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMass Droplet.debug.xcconfig"; path = "Target Support Files/Pods-UMass Droplet/Pods-UMass Droplet.debug.xcconfig"; sourceTree = "<group>"; };
+		EE02966425A7BD7EC1557855 /* Pods-UMass DropletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMass DropletTests.debug.xcconfig"; path = "Target Support Files/Pods-UMass DropletTests/Pods-UMass DropletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFC334D2CFDA2093CB13BB2D /* Pods-UMass DropletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMass DropletTests.release.xcconfig"; path = "Target Support Files/Pods-UMass DropletTests/Pods-UMass DropletTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A0A473229CCE9C600A49730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFC3E0D29D77C63006E4B48 /* FirebaseAnalytics in Frameworks */,
+				8A3ABF5229E0D61E001CDC15 /* FirebaseFirestore in Frameworks */,
+				8A3ABF5029E0D07C001CDC15 /* FirebaseAuth in Frameworks */,
+				8AFC3E0F29D77C63006E4B48 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				42C33902CA66230D1C1B57AB /* Pods_UMass_Droplet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0A474829CCE9C800A49730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84691BB6F888A906017B65E4 /* Pods_UMass_DropletTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0A475229CCE9C800A49730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A779A99B2FD4D6472573F83 /* Pods_UMass_Droplet_UMass_DropletUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A0A472C29CCE9C600A49730 = {
+			isa = PBXGroup;
+			children = (
+				8A0A473729CCE9C600A49730 /* UMass Droplet */,
+				8A0A474E29CCE9C800A49730 /* UMass DropletTests */,
+				8A0A475829CCE9C800A49730 /* UMass DropletUITests */,
+				8A0A473629CCE9C600A49730 /* Products */,
+				8A3ABF4E29E0D07C001CDC15 /* Frameworks */,
+				E72406ED32CA14D8F97E9E13 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8A0A473629CCE9C600A49730 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A0A473529CCE9C600A49730 /* UMass Droplet.app */,
+				8A0A474B29CCE9C800A49730 /* UMass DropletTests.xctest */,
+				8A0A475529CCE9C800A49730 /* UMass DropletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A0A473729CCE9C600A49730 /* UMass Droplet */ = {
+			isa = PBXGroup;
+			children = (
+				8A0A476929CFA03400A49730 /* Videos */,
+				8A0A473829CCE9C600A49730 /* AppDelegate.swift */,
+				8A0A473A29CCE9C600A49730 /* SceneDelegate.swift */,
+				8ABBF58529F9A61A000DACD3 /* Main.storyboard */,
+				8A0A477629D01AE800A49730 /* Controllers */,
+				8A0A474129CCE9C800A49730 /* Assets.xcassets */,
+				8A0A474329CCE9C800A49730 /* LaunchScreen.storyboard */,
+				8A0A474629CCE9C800A49730 /* Info.plist */,
+				8AFC3E0929D77A75006E4B48 /* GoogleService-Info.plist */,
+			);
+			path = "UMass Droplet";
+			sourceTree = "<group>";
+		};
+		8A0A474E29CCE9C800A49730 /* UMass DropletTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A0A474F29CCE9C800A49730 /* UMass_DropletTests.swift */,
+			);
+			path = "UMass DropletTests";
+			sourceTree = "<group>";
+		};
+		8A0A475829CCE9C800A49730 /* UMass DropletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A0A475929CCE9C800A49730 /* UMass_DropletUITests.swift */,
+				8A0A475B29CCE9C800A49730 /* UMass_DropletUITestsLaunchTests.swift */,
+			);
+			path = "UMass DropletUITests";
+			sourceTree = "<group>";
+		};
+		8A0A476929CFA03400A49730 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				8A0A476A29CFA08A00A49730 /* UMass Droplet.mp4 */,
+				8A0A477729D0E06800A49730 /* Launch.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		8A0A477629D01AE800A49730 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A5A168C29E1E79A0095EB57 /* test.json */,
+				8A2687F72A00B58900BEC300 /* AllBuildings.json */,
+				8A2D595A29F5C69600CE10D5 /* Venue.swift */,
+				8A2D595C29F8A61100CE10D5 /* JSONdecoder.swift */,
+				8A0A473C29CCE9C600A49730 /* LoginViewController.swift */,
+				8AFC3E0429D62771006E4B48 /* SignUpViewController.swift */,
+				8A3ABF5329E0DE9D001CDC15 /* HomeViewController.swift */,
+				8A4406A929E5A63000174BA9 /* BuildingViewController.swift */,
+				8ABBF58829FDBA25000DACD3 /* TrackViewController.swift */,
+				8AFC3E0229D3E909006E4B48 /* AccountViewController.swift */,
+				D669393A2A0F00A90042784B /* WaterManager.swift */,
+				8AAD949C2A140FB40065C93D /* WaterStationsUIView.swift */,
+				D669393D2A0F0A070042784B /* AccountManager.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8A3ABF4E29E0D07C001CDC15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D1CD80BAEC3E3B2CA783C73 /* Pods_UMass_Droplet.framework */,
+				486C742D8E5BB714979D83C8 /* Pods_UMass_Droplet_UMass_DropletUITests.framework */,
+				A6B39F4EC0B60C9C853AE27D /* Pods_UMass_DropletTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E72406ED32CA14D8F97E9E13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFE05D5B580C5CEA2FEABF62 /* Pods-UMass Droplet.debug.xcconfig */,
+				17CB4259F33EAAC3B5ABD2CF /* Pods-UMass Droplet.release.xcconfig */,
+				1582EA1E953CFD42E0A42527 /* Pods-UMass Droplet-UMass DropletUITests.debug.xcconfig */,
+				C20081EA0D550651FE86201E /* Pods-UMass Droplet-UMass DropletUITests.release.xcconfig */,
+				EE02966425A7BD7EC1557855 /* Pods-UMass DropletTests.debug.xcconfig */,
+				EFC334D2CFDA2093CB13BB2D /* Pods-UMass DropletTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A0A473429CCE9C600A49730 /* UMass Droplet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0A475F29CCE9C800A49730 /* Build configuration list for PBXNativeTarget "UMass Droplet" */;
+			buildPhases = (
+				71AD2E2C3F5C764C4CFF33F6 /* [CP] Check Pods Manifest.lock */,
+				8A0A473129CCE9C600A49730 /* Sources */,
+				8A0A473229CCE9C600A49730 /* Frameworks */,
+				8A0A473329CCE9C600A49730 /* Resources */,
+				E4C2C1C239BEB2E66D1A6409 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UMass Droplet";
+			packageProductDependencies = (
+				8AFC3E0C29D77C63006E4B48 /* FirebaseAnalytics */,
+				8AFC3E0E29D77C63006E4B48 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				8A3ABF4F29E0D07C001CDC15 /* FirebaseAuth */,
+				8A3ABF5129E0D61E001CDC15 /* FirebaseFirestore */,
+			);
+			productName = "UMass Droplet";
+			productReference = 8A0A473529CCE9C600A49730 /* UMass Droplet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A0A474A29CCE9C800A49730 /* UMass DropletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0A476229CCE9C800A49730 /* Build configuration list for PBXNativeTarget "UMass DropletTests" */;
+			buildPhases = (
+				D1B05B35EBCC1C68A314907C /* [CP] Check Pods Manifest.lock */,
+				8A0A474729CCE9C800A49730 /* Sources */,
+				8A0A474829CCE9C800A49730 /* Frameworks */,
+				8A0A474929CCE9C800A49730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A0A474D29CCE9C800A49730 /* PBXTargetDependency */,
+			);
+			name = "UMass DropletTests";
+			productName = "UMass DropletTests";
+			productReference = 8A0A474B29CCE9C800A49730 /* UMass DropletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A0A475429CCE9C800A49730 /* UMass DropletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0A476529CCE9C800A49730 /* Build configuration list for PBXNativeTarget "UMass DropletUITests" */;
+			buildPhases = (
+				F3137B6EB8A9E0D75615AB35 /* [CP] Check Pods Manifest.lock */,
+				8A0A475129CCE9C800A49730 /* Sources */,
+				8A0A475229CCE9C800A49730 /* Frameworks */,
+				8A0A475329CCE9C800A49730 /* Resources */,
+				D08B977437AB60E55F2DC60D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A0A475729CCE9C800A49730 /* PBXTargetDependency */,
+			);
+			name = "UMass DropletUITests";
+			productName = "UMass DropletUITests";
+			productReference = 8A0A475529CCE9C800A49730 /* UMass DropletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A0A472D29CCE9C600A49730 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8A0A473429CCE9C600A49730 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8A0A474A29CCE9C800A49730 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8A0A473429CCE9C600A49730;
+					};
+					8A0A475429CCE9C800A49730 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8A0A473429CCE9C600A49730;
+					};
+				};
+			};
+			buildConfigurationList = 8A0A473029CCE9C600A49730 /* Build configuration list for PBXProject "UMass Droplet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A0A472C29CCE9C600A49730;
+			packageReferences = (
+				8AFC3E0B29D77C63006E4B48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 8A0A473629CCE9C600A49730 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A0A473429CCE9C600A49730 /* UMass Droplet */,
+				8A0A474A29CCE9C800A49730 /* UMass DropletTests */,
+				8A0A475429CCE9C800A49730 /* UMass DropletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A0A473329CCE9C600A49730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABBF58729F9A61A000DACD3 /* Main.storyboard in Resources */,
+				8A0A474529CCE9C800A49730 /* LaunchScreen.storyboard in Resources */,
+				8A0A474229CCE9C800A49730 /* Assets.xcassets in Resources */,
+				8A0A476B29CFA08A00A49730 /* UMass Droplet.mp4 in Resources */,
+				8A0A477829D0E06800A49730 /* Launch.mp4 in Resources */,
+				8A5A168D29E1E79B0095EB57 /* test.json in Resources */,
+				8AFC3E0A29D77A75006E4B48 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0A474929CCE9C800A49730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0A477929D0E06800A49730 /* Launch.mp4 in Resources */,
+				8A0A476C29CFA08A00A49730 /* UMass Droplet.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0A475329CCE9C800A49730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0A477A29D0E06800A49730 /* Launch.mp4 in Resources */,
+				8A0A476D29CFA08A00A49730 /* UMass Droplet.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71AD2E2C3F5C764C4CFF33F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UMass Droplet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D08B977437AB60E55F2DC60D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UMass Droplet-UMass DropletUITests/Pods-UMass Droplet-UMass DropletUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UMass Droplet-UMass DropletUITests/Pods-UMass Droplet-UMass DropletUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UMass Droplet-UMass DropletUITests/Pods-UMass Droplet-UMass DropletUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1B05B35EBCC1C68A314907C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UMass DropletTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4C2C1C239BEB2E66D1A6409 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UMass Droplet/Pods-UMass Droplet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UMass Droplet/Pods-UMass Droplet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UMass Droplet/Pods-UMass Droplet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3137B6EB8A9E0D75615AB35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UMass Droplet-UMass DropletUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A0A473129CCE9C600A49730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0A473D29CCE9C600A49730 /* LoginViewController.swift in Sources */,
+				8A2D595B29F5C69600CE10D5 /* Venue.swift in Sources */,
+				8A0A473929CCE9C600A49730 /* AppDelegate.swift in Sources */,
+				8AAD949D2A140FB40065C93D /* WaterStationsUIView.swift in Sources */,
+				8AFC3E0329D3E909006E4B48 /* AccountViewController.swift in Sources */,
+				8A0A473B29CCE9C600A49730 /* SceneDelegate.swift in Sources */,
+				8A4406AA29E5A63000174BA9 /* BuildingViewController.swift in Sources */,
+				8A2D595D29F8A61100CE10D5 /* JSONdecoder.swift in Sources */,
+				8ABBF58929FDBA25000DACD3 /* TrackViewController.swift in Sources */,
+				D669393E2A0F0A070042784B /* AccountManager.swift in Sources */,
+				8AFC3E0529D62771006E4B48 /* SignUpViewController.swift in Sources */,
+				8A3ABF5429E0DE9D001CDC15 /* HomeViewController.swift in Sources */,
+				8A2687F82A00B58900BEC300 /* AllBuildings.json in Sources */,
+				D669393B2A0F00A90042784B /* WaterManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0A474729CCE9C800A49730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0A475029CCE9C800A49730 /* UMass_DropletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0A475129CCE9C800A49730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0A475A29CCE9C800A49730 /* UMass_DropletUITests.swift in Sources */,
+				8A0A475C29CCE9C800A49730 /* UMass_DropletUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A0A474D29CCE9C800A49730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A0A473429CCE9C600A49730 /* UMass Droplet */;
+			targetProxy = 8A0A474C29CCE9C800A49730 /* PBXContainerItemProxy */;
+		};
+		8A0A475729CCE9C800A49730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A0A473429CCE9C600A49730 /* UMass Droplet */;
+			targetProxy = 8A0A475629CCE9C800A49730 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A0A474329CCE9C800A49730 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A0A474429CCE9C800A49730 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8ABBF58529F9A61A000DACD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ABBF58629F9A61A000DACD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A0A475D29CCE9C800A49730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A0A475E29CCE9C800A49730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A0A476029CCE9C800A49730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE05D5B580C5CEA2FEABF62 /* Pods-UMass Droplet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KVYF8QPG69;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UMass Droplet/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Tipnis.UMass-Drop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A0A476129CCE9C800A49730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CB4259F33EAAC3B5ABD2CF /* Pods-UMass Droplet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KVYF8QPG69;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UMass Droplet/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Tipnis.UMass-Drop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A0A476329CCE9C800A49730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE02966425A7BD7EC1557855 /* Pods-UMass DropletTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KVYF8QPG69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Tipnis.UMass-DropletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UMass Droplet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UMass Droplet";
+			};
+			name = Debug;
+		};
+		8A0A476429CCE9C800A49730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC334D2CFDA2093CB13BB2D /* Pods-UMass DropletTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KVYF8QPG69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Tipnis.UMass-DropletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UMass Droplet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UMass Droplet";
+			};
+			name = Release;
+		};
+		8A0A476629CCE9C800A49730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1582EA1E953CFD42E0A42527 /* Pods-UMass Droplet-UMass DropletUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KVYF8QPG69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Tipnis.UMass-DropletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UMass Droplet";
+			};
+			name = Debug;
+		};
+		8A0A476729CCE9C800A49730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20081EA0D550651FE86201E /* Pods-UMass Droplet-UMass DropletUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KVYF8QPG69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Tipnis.UMass-DropletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UMass Droplet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A0A473029CCE9C600A49730 /* Build configuration list for PBXProject "UMass Droplet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0A475D29CCE9C800A49730 /* Debug */,
+				8A0A475E29CCE9C800A49730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A0A475F29CCE9C800A49730 /* Build configuration list for PBXNativeTarget "UMass Droplet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0A476029CCE9C800A49730 /* Debug */,
+				8A0A476129CCE9C800A49730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A0A476229CCE9C800A49730 /* Build configuration list for PBXNativeTarget "UMass DropletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0A476329CCE9C800A49730 /* Debug */,
+				8A0A476429CCE9C800A49730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A0A476529CCE9C800A49730 /* Build configuration list for PBXNativeTarget "UMass DropletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0A476629CCE9C800A49730 /* Debug */,
+				8A0A476729CCE9C800A49730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8AFC3E0B29D77C63006E4B48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8A3ABF4F29E0D07C001CDC15 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AFC3E0B29D77C63006E4B48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8A3ABF5129E0D61E001CDC15 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AFC3E0B29D77C63006E4B48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		8AFC3E0C29D77C63006E4B48 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AFC3E0B29D77C63006E4B48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		8AFC3E0E29D77C63006E4B48 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AFC3E0B29D77C63006E4B48 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8A0A472D29CCE9C600A49730 /* Project object */;
+}

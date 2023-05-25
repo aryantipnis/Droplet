@@ -1,5 +1,5 @@
 # UMass Droplet
-CS320 Droplet Project
+CS320 Droplet Project: Aryan Tipnis, Ishaan Shetty, Liang Xu, Utthkarsh Kottali
 
 Objectives: 
 * Identify all water bottle stations on campus
